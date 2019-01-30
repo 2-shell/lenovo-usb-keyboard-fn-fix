@@ -1,0 +1,3 @@
+[submodule "tp-compact-keyboard"]
+	path = tp-compact-keyboard
+	url = https://github.com/lentinj/tp-compact-keyboard.git
