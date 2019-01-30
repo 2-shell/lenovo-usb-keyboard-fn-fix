@@ -1,0 +1,2 @@
+# udev rule for enabling FN-Lock on Lenovo SK-8821 Keyboard
+KERNEL=="hidraw*",ATTRS{idVendor}=="17ef",ATTRS{idProduct}=="6018",ENV{ACTION}=="add",RUN+="/usr/local/sbin/tp-compact-usb-keyboard /dev/%k"
